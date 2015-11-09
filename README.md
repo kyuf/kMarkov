@@ -12,9 +12,9 @@ kMarkov is written using Python 3.4
 Current Features
 --------
 
-*Markov text generation
-*Reads in .txt files
-*User sets prefix length and number of words generated
+* Markov text generation
+* Reads in .txt files
+* User sets prefix length and number of words generated
 
 Instructions
 --------
