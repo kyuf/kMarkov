@@ -103,7 +103,7 @@ def main():
             try:
                 #read text file and create word list
                 with open(file_name, 'r') as f:
-                    words = [word for line in f for word in line.split()]
+                    words = [word for line in f for word in line.strip().split()]
                 #check if file has more than one word
                 if len(words) < 2:
                     print('File must contain at least 2 words')
